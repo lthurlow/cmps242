@@ -1,0 +1,403 @@
+lincolnrlowsmbp:cmps242 lthurlow$ python mler.py 
+Epoch:  1
+  Errors:  2449
+Epoch:  2
+  Errors:  2381
+Epoch:  3
+  Errors:  2372
+Epoch:  4
+  Errors:  2365
+Epoch:  5
+  Errors:  2343
+Epoch:  6
+  Errors:  2279
+Epoch:  7
+  Errors:  2382
+Epoch:  8
+  Errors:  2325
+Epoch:  9
+  Errors:  2357
+Epoch:  10
+  Errors:  2267
+Epoch:  11
+  Errors:  2330
+Epoch:  12
+  Errors:  2355
+Epoch:  13
+  Errors:  2303
+Epoch:  14
+  Errors:  2319
+Epoch:  15
+  Errors:  2319
+Epoch:  16
+  Errors:  2342
+Epoch:  17
+  Errors:  2311
+Epoch:  18
+  Errors:  2284
+Epoch:  19
+  Errors:  2297
+Epoch:  20
+  Errors:  2244
+Epoch:  21
+  Errors:  2302
+Epoch:  22
+  Errors:  2277
+Epoch:  23
+  Errors:  2314
+Epoch:  24
+  Errors:  2287
+Epoch:  25
+  Errors:  2294
+Epoch:  26
+  Errors:  2321
+Epoch:  27
+  Errors:  2286
+Epoch:  28
+  Errors:  2271
+Epoch:  29
+  Errors:  2269
+Epoch:  30
+  Errors:  2253
+Epoch:  31
+  Errors:  2250
+Epoch:  32
+  Errors:  2271
+Epoch:  33
+  Errors:  2264
+Epoch:  34
+  Errors:  2257
+Epoch:  35
+  Errors:  2260
+Epoch:  36
+  Errors:  2274
+Epoch:  37
+  Errors:  2255
+Epoch:  38
+  Errors:  2314
+Epoch:  39
+  Errors:  2279
+Epoch:  40
+  Errors:  2270
+Epoch:  41
+  Errors:  2254
+Epoch:  42
+  Errors:  2266
+Epoch:  43
+  Errors:  2272
+Epoch:  44
+  Errors:  2260
+Epoch:  45
+  Errors:  2248
+Epoch:  46
+  Errors:  2276
+Epoch:  47
+  Errors:  2248
+Epoch:  48
+  Errors:  2237
+Epoch:  49
+  Errors:  2295
+Epoch:  50
+  Errors:  2258
+Epoch:  51
+  Errors:  2277
+Epoch:  52
+  Errors:  2253
+Epoch:  53
+  Errors:  2238
+Epoch:  54
+  Errors:  2265
+Epoch:  55
+  Errors:  2246
+Epoch:  56
+  Errors:  2276
+Epoch:  57
+  Errors:  2288
+Epoch:  58
+  Errors:  2261
+Epoch:  59
+  Errors:  2261
+Epoch:  60
+  Errors:  2211
+Epoch:  61
+  Errors:  2260
+Epoch:  62
+  Errors:  2246
+Epoch:  63
+  Errors:  2280
+Epoch:  64
+  Errors:  2222
+Epoch:  65
+  Errors:  2239
+Epoch:  66
+  Errors:  2236
+Epoch:  67
+  Errors:  2248
+Epoch:  68
+  Errors:  2219
+Epoch:  69
+  Errors:  2246
+Epoch:  70
+  Errors:  2263
+Epoch:  71
+  Errors:  2232
+Epoch:  72
+  Errors:  2258
+Epoch:  73
+  Errors:  2259
+Epoch:  74
+  Errors:  2243
+Epoch:  75
+  Errors:  2195
+Epoch:  76
+  Errors:  2235
+Epoch:  77
+  Errors:  2201
+Epoch:  78
+  Errors:  2271
+Epoch:  79
+  Errors:  2247
+Epoch:  80
+  Errors:  2261
+Epoch:  81
+  Errors:  2228
+Epoch:  82
+  Errors:  2233
+Epoch:  83
+  Errors:  2242
+Epoch:  84
+  Errors:  2248
+Epoch:  85
+  Errors:  2235
+Epoch:  86
+  Errors:  2233
+Epoch:  87
+  Errors:  2212
+Epoch:  88
+  Errors:  2265
+Epoch:  89
+  Errors:  2254
+Epoch:  90
+  Errors:  2243
+Epoch:  91
+  Errors:  2223
+Epoch:  92
+  Errors:  2230
+Epoch:  93
+  Errors:  2185
+Epoch:  94
+  Errors:  2268
+Epoch:  95
+  Errors:  2226
+Epoch:  96
+  Errors:  2209
+Epoch:  97
+  Errors:  2222
+Epoch:  98
+  Errors:  2236
+Epoch:  99
+  Errors:  2265
+Epoch:  100
+  Errors:  2253
+Epoch:  101
+  Errors:  2239
+Epoch:  102
+  Errors:  2220
+Epoch:  103
+  Errors:  2264
+Epoch:  104
+  Errors:  2258
+Epoch:  105
+  Errors:  2239
+Epoch:  106
+  Errors:  2212
+Epoch:  107
+  Errors:  2178
+Epoch:  108
+  Errors:  2242
+Epoch:  109
+  Errors:  2220
+Epoch:  110
+  Errors:  2225
+Epoch:  111
+  Errors:  2235
+Epoch:  112
+  Errors:  2183
+Epoch:  113
+  Errors:  2219
+Epoch:  114
+  Errors:  2258
+Epoch:  115
+  Errors:  2234
+Epoch:  116
+  Errors:  2222
+Epoch:  117
+  Errors:  2230
+Epoch:  118
+  Errors:  2222
+Epoch:  119
+  Errors:  2225
+Epoch:  120
+  Errors:  2212
+Epoch:  121
+  Errors:  2241
+Epoch:  122
+  Errors:  2210
+Epoch:  123
+  Errors:  2216
+Epoch:  124
+  Errors:  2197
+Epoch:  125
+  Errors:  2252
+Epoch:  126
+  Errors:  2210
+Epoch:  127
+  Errors:  2237
+Epoch:  128
+  Errors:  2183
+Epoch:  129
+  Errors:  2212
+Epoch:  130
+  Errors:  2235
+Epoch:  131
+  Errors:  2190
+Epoch:  132
+  Errors:  2181
+Epoch:  133
+  Errors:  2177
+Epoch:  134
+  Errors:  2219
+Epoch:  135
+  Errors:  2165
+Epoch:  136
+  Errors:  2226
+Epoch:  137
+  Errors:  2227
+Epoch:  138
+  Errors:  2225
+Epoch:  139
+  Errors:  2224
+Epoch:  140
+  Errors:  2192
+Epoch:  141
+  Errors:  2217
+Epoch:  142
+  Errors:  2202
+Epoch:  143
+  Errors:  2154
+Epoch:  144
+  Errors:  2199
+Epoch:  145
+  Errors:  2214
+Epoch:  146
+  Errors:  2168
+Epoch:  147
+  Errors:  2207
+Epoch:  148
+  Errors:  2210
+Epoch:  149
+  Errors:  2177
+Epoch:  150
+  Errors:  2183
+Epoch:  151
+  Errors:  2155
+Epoch:  152
+  Errors:  2235
+Epoch:  153
+  Errors:  2223
+Epoch:  154
+  Errors:  2172
+Epoch:  155
+  Errors:  2192
+Epoch:  156
+  Errors:  2190
+Epoch:  157
+  Errors:  2155
+Epoch:  158
+  Errors:  2191
+Epoch:  159
+  Errors:  2183
+Epoch:  160
+  Errors:  2217
+Epoch:  161
+  Errors:  2182
+Epoch:  162
+  Errors:  2202
+Epoch:  163
+  Errors:  2196
+Epoch:  164
+  Errors:  2217
+Epoch:  165
+  Errors:  2160
+Epoch:  166
+  Errors:  2145
+Epoch:  167
+  Errors:  2226
+Epoch:  168
+  Errors:  2195
+Epoch:  169
+  Errors:  2189
+Epoch:  170
+  Errors:  2209
+Epoch:  171
+  Errors:  2179
+Epoch:  172
+  Errors:  2159
+Epoch:  173
+  Errors:  2171
+Epoch:  174
+  Errors:  2177
+Epoch:  175
+  Errors:  2184
+Epoch:  176
+  Errors:  2179
+Epoch:  177
+  Errors:  2177
+Epoch:  178
+  Errors:  2191
+Epoch:  179
+  Errors:  2156
+Epoch:  180
+  Errors:  2163
+Epoch:  181
+  Errors:  2201
+Epoch:  182
+  Errors:  2204
+Epoch:  183
+  Errors:  2174
+Epoch:  184
+  Errors:  2170
+Epoch:  185
+  Errors:  2171
+Epoch:  186
+  Errors:  2212
+Epoch:  187
+  Errors:  2185
+Epoch:  188
+  Errors:  2246
+Epoch:  189
+  Errors:  2131
+Epoch:  190
+  Errors:  2194
+Epoch:  191
+  Errors:  2193
+Epoch:  192
+  Errors:  2180
+Epoch:  193
+  Errors:  2158
+Epoch:  194
+  Errors:  2240
+Epoch:  195
+  Errors:  2174
+Epoch:  196
+  Errors:  2150
+Epoch:  197
+  Errors:  2177
+Epoch:  198
+  Errors:  2156
+Epoch:  199
+  Errors:  2186
+Epoch:  200
+  Errors:  2190
+Epoch:  201
+  Errors:  2211
