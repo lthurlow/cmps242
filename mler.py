@@ -3,6 +3,7 @@ import pprint
 import pdb
 import collections
 
+import abstract
 import ml_functions
 
 class data:
@@ -39,80 +40,19 @@ percent = ml_functions.white_wins(data_set)
 print "White Always Wins: %s" % percent
 percent = ml_functions.black_wins(data_set)
 print "Black Always Wins: %s" % percent
+print sep
 percent = ml_functions.base_elo(data_set)
-print sep
 print "Using Elo: %s" % percent
-percent = ml_functions.plus_ties_elo(data_set, 25)
-print "Use Elo + Ties (25): %s" % percent
-percent = ml_functions.plus_ties_elo(data_set, 50)
-print "Use Elo + Ties (50): %s" % percent
-percent = ml_functions.plus_ties_elo(data_set, 75)
-print "Use Elo + Ties (75): %s" % percent
-percent = ml_functions.plus_ties_elo(data_set, 100)
-print "Use Elo + Ties (100): %s" % percent
-percent = ml_functions.plus_ties_elo(data_set, 150)
-print "Use Elo + Ties (150): %s" % percent
-print sep
-percent = ml_functions.pred_last(data_set, 0)
-print "Predition based on Score : %s" % percent
-percent = ml_functions.pred_last(data_set, 25)
-print "Predition based on Score (25): %s" % percent
-percent = ml_functions.pred_last(data_set, 50)
-print "Predition based on Score (50): %s" % percent
-percent = ml_functions.pred_last(data_set, 75)
-print "Predition based on Score (75): %s" % percent
-percent = ml_functions.pred_last(data_set, 100)
-print "Predition based on Score (100): %s" % percent
-percent = ml_functions.pred_last(data_set, 200)
-print "Predition based on Score (200): %s" % percent
-print sep
 
-percent = ml_functions.prune_moves(data_set, 1)
-print "Predition based on Move number (1,0): %s" % percent
-percent = ml_functions.prune_moves(data_set, 1,25)
-print "Predition based on Move number (1,25): %s" % percent
-percent = ml_functions.prune_moves(data_set, 1,50)
-print "Predition based on Move number (1,50): %s" % percent
-percent = ml_functions.prune_moves(data_set, 1,75)
-print "Predition based on Move number (1,75): %s" % percent
-percent = ml_functions.prune_moves(data_set, 1,100)
-print "Predition based on Move number (1,100): %s" % percent
+abstract.m_call_fun("plus_ties_elo",data_set,[0,10,25,50,75,100,125,150])
 
+abstract.m_call_fun("pred_last",data_set,[0,10,25,50,75,100,125,150,200])
 
-percent = ml_functions.prune_moves(data_set, 5)
-print "Predition based on Move number (5): %s" % percent
-percent = ml_functions.prune_moves(data_set, 10)
-print "Predition based on Move number (10): %s" % percent
-percent = ml_functions.prune_moves(data_set, -10)
-print "Predition based on Move number (-10): %s" % percent
-percent = ml_functions.prune_moves(data_set, -5)
-print "Predition based on Move number (-5): %s" % percent
+abstract.m_call_fun("average_moves", data_set, [0,10,25,50,75,100,125,150,200])
 
-percent = ml_functions.prune_moves(data_set, -2)
-print "Predition based on Move number (-2,0): %s" % percent
-percent = ml_functions.prune_moves(data_set, -2,25)
-print "Predition based on Move number (-2,25): %s" % percent
-percent = ml_functions.prune_moves(data_set, -2,50)
-print "Predition based on Move number (-2,50): %s" % percent
-percent = ml_functions.prune_moves(data_set, -2,75)
-print "Predition based on Move number (-2,75): %s" % percent
-percent = ml_functions.prune_moves(data_set, -2,100)
-print "Predition based on Move number (-2,100): %s" % percent
-
-percent = ml_functions.prune_moves(data_set, -1)
-print "Predition based on Move number (-1,0): %s" % percent
-percent = ml_functions.prune_moves(data_set, -1,25)
-print "Predition based on Move number (-1,25): %s" % percent
-percent = ml_functions.prune_moves(data_set, -1,50)
-print "Predition based on Move number (-1,50): %s" % percent
-percent = ml_functions.prune_moves(data_set, -1,75)
-print "Predition based on Move number (-1,75): %s" % percent
-percent = ml_functions.prune_moves(data_set, -1,100)
-print "Predition based on Move number (-1,100): %s" % percent
+abstract.m_call_fun("prune_moves",data_set,[0,1,2,5,10,-10,-5,-3,-2,-1],[10,25,50,100,150,200])
 
 
 
-
-print sep
 #percent = ml_functions.perceptron(data_set)
 #print "Predition based on Perceptron: %s" % percent

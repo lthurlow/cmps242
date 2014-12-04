@@ -62,6 +62,41 @@ def pred_last(ds,factor):
             correct += 1
   return correct/total
 
+def average_moves(ds, factor):
+  correct = 0
+  total = float(len(ds))
+  new_ds = {}
+  for x in ds:
+    new_ds[x] = []
+    if ds[x].plays:
+      rem_last = 0
+      for y in ds[x].plays:
+        if type(y) == int:
+          rem_last = y
+          new_ds[x].append(y)
+        else:
+          new_ds[x].append(rem_last)
+  for x in ds:
+    count = 0
+    num_ll = len(new_ds[x])
+    for y in new_ds[x]:
+      count += int(y)
+    if num_ll > 0:
+      avg = count/(num_ll*1.0)
+      if abs(avg) < factor:
+        if ds[x].white == .5:
+          correct += 1
+      else:
+        if avg >= 0 and ds[x].white == 1:
+          correct += 1
+        elif avg < 0 and ds[x].white == 0:
+          correct += 1
+    else:
+      total -= 1
+  return correct/total
+
+ 
+
 def prune_moves(ds, num, factor=0):
   correct = 0
   total = float(len(ds))
