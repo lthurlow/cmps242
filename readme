@@ -1,0 +1,14 @@
+1. Need to add test dataset
+x. Need to make another abstraction to run algs multiple times
+3. Find Max for how far to prune back
+4. Run weka on data set looking for a soft-margin
+5. cluster on similar scores
+-- Then look at move clusters
+6. cluster based on moves
+-- advantage for color based on moves less than x?
+7. map moves:scores, then cluster on score, what do we see w.r.t moves
+8. look at classification for each iteration of moves
+-- on first turn, second, nth, etc
+-- (see 2 and use prune funct)
+x. look at mean score of the game as a predictor!
+10. weighted move scores.

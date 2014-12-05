@@ -3,6 +3,7 @@ import pprint
 import pdb
 import collections
 
+import abstract
 import ml_functions
 
 class data:
@@ -17,6 +18,11 @@ class data:
     s = ','.join([str(self.event), str(self.white), str(self.black),\
                   str(self.whelo), str(self.blelo)]+\
                   [str(x) for x in self.plays])
+  def get_plays(self):
+    return self.plays
+  def get_winner(self):
+    return self.white
+  
     return s
 
 csvfile = open('formatted_data.csv', 'rb')
@@ -34,17 +40,19 @@ percent = ml_functions.white_wins(data_set)
 print "White Always Wins: %s" % percent
 percent = ml_functions.black_wins(data_set)
 print "Black Always Wins: %s" % percent
+print sep
 percent = ml_functions.base_elo(data_set)
-print sep
 print "Using Elo: %s" % percent
-percent = ml_functions.plus_ties_elo(data_set, 25)
-print "Use Elo + Ties (25): %s" % percent
-percent = ml_functions.plus_ties_elo(data_set, 50)
-print "Use Elo + Ties (50): %s" % percent
-percent = ml_functions.plus_ties_elo(data_set, 75)
-print "Use Elo + Ties (75): %s" % percent
-percent = ml_functions.plus_ties_elo(data_set, 100)
-print "Use Elo + Ties (100): %s" % percent
-percent = ml_functions.plus_ties_elo(data_set, 150)
-print "Use Elo + Ties (150): %s" % percent
-print sep
+
+abstract.m_call_fun("plus_ties_elo",data_set,[0,10,25,50,75,100,125,150])
+
+abstract.m_call_fun("pred_last",data_set,[0,10,25,50,75,100,125,150,200])
+
+abstract.m_call_fun("average_moves", data_set, [0,10,25,50,75,100,125,150,200])
+
+abstract.m_call_fun("prune_moves",data_set,[0,1,2,5,10,-10,-5,-3,-2,-1],[10,25,50,100,150,200])
+
+
+
+#percent = ml_functions.perceptron(data_set)
+#print "Predition based on Perceptron: %s" % percent
